@@ -31,10 +31,9 @@ user.post('/register', async (req, res, next) => {
       username,
       password: await bcrypt.hash(password, 10)
     })
+    
+    if (newUser) {res.status(201).json({msg: 'success'})}
 
-    if (newUser) {
-      return res.status(201).json({msg: 'success'})
-    }
   }
   catch(err) {next(err)}
 })
