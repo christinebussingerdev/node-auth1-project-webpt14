@@ -217,6 +217,11 @@ bluebird@^2.9.13:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
   integrity sha1-U0uQM8AiyVecVro7Plpcqvu2UOE=
 
+bluebird@^3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
+  integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
+
 body-parser@1.19.0:
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
@@ -439,6 +444,14 @@ configstore@^5.0.1:
     unique-string "^2.0.0"
     write-file-atomic "^3.0.0"
     xdg-basedir "^4.0.0"
+
+connect-session-knex@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/connect-session-knex/-/connect-session-knex-1.7.3.tgz#ae012f9948ac127d6d4a6cfc5d590fed2d749474"
+  integrity sha512-PBiVi9vT6c3gmom/MhRJR0/k4X7YQe1+AfETW6HLwTwKCzdubk1Sile8Mpqjwp0+yepJoarJO8HMsC3t6WkQ1Q==
+  dependencies:
+    bluebird "^3.7.2"
+    knex "^0.21.1"
 
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"

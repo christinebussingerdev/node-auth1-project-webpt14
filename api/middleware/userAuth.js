@@ -1,5 +1,5 @@
 const bcrypt = require('bcryptjs')
-const users = require('../data/dbConfig')
+const users = require('../routers/user-model')
 
 // public vars
 const authError = {msg: 'invalid credentials'}
